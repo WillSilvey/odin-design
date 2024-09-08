@@ -58,10 +58,17 @@ html, body, div {
     height: 60vh;
 }
 
-.panel2-one {
+.panel2-one, .panel2-one-text {
     margin-left: 250px;
 }
 
+.panel2-text, .panel2-one-text    {
+    height: 50px;
+    width:  150px;
+    border: 3px #3882F6 solid;
+    border-radius: 10px;
+    margin-right: 50px;
+}
 .panel2, .panel2-one {
     height: 130px;
     width: 150px;
