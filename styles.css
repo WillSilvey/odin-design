@@ -1,7 +1,13 @@
 html, body, div {
     margin: 0;
     padding: 0;
-    border: 1px red solid;
+    /* border: 1px red solid; */
+    font-family: hero;
+}
+
+@font-face {
+    font-family: Hero;
+    src: url(fonts/Hero-Regular.ttf);
 }
 
 .header-container  {
@@ -15,9 +21,9 @@ html, body, div {
     height: 50px;
     width: 200px;
     margin-top: 20px;
-    font-family: Hero;
     color: #e5e7eb;
     font-size: 18px;
+    text-align: center;
 }
 
 .header-item-logo  {
@@ -29,7 +35,6 @@ html, body, div {
 .header-item:last-child  {
     margin-right: 130px;
 }
-
 
 .panel1-container    {
     height: 65vh;
@@ -69,6 +74,7 @@ html, body, div {
 
 .panel3-container   {
     height: 60vh;
+    background-color: #e5e7eb;
 }
 
 .panel3-item    {
@@ -77,4 +83,49 @@ html, body, div {
     margin-left: 350px;
     margin-right: 350px;
     height: 200px;
+}
+
+.panel4-container   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    
+}
+
+.panel4-box {
+    height: 100px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.panel4-text    {
+    margin: 20px;
+    margin-left: 100px;
+    height: 50px;
+    width: 400px;
+}
+
+.panel4-button {
+    height: 24px;
+    width: 80px;
+    margin-left: 50px;
+
+}
+
+.panel5-container   {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #1f2937;
+}
+
+.panel5-text    {
+    height: 30px;
+    width: 300px;
 }
