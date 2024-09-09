@@ -1,12 +1,8 @@
 html, body, div {
     margin: 0;
     padding: 0;
-    font-family: hero;
-}
-
-@font-face {
-    font-family: Hero;
-    src: url(fonts/Hero-Regular.ttf);
+    box-sizing: border-box;
+    font-family: Roboto;
 }
 
 .header-container  {
@@ -28,6 +24,7 @@ html, body, div {
     margin-right: 350px;
     margin-left: 175px;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .header-item:last-child  {
@@ -52,46 +49,38 @@ html, body, div {
     background-color:  grey;
 }
 
-.panel2-container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60vh;
-}
-
-.panel2-one, .panel2-one-text {
-    margin-left: 250px;
-}
-
-.panel2-text, .panel2-one-text    {
-    height: 50px;
-    width:  150px;
-    border: 3px #3882F6 solid;
-    border-radius: 10px;
-    margin-right: 50px;
-}
-.panel2, .panel2-one {
-    height: 130px;
-    width: 150px;
-    background-color: #e5e7eb;
-    margin-right: 50px;
-    border: 3px #3882F6 solid;
-    border-radius: 10px;
-}
-
-.panel2-title {
-    margin-left: 330px;
-    margin-right: 350px;
-    margin-top: 15px;
-    flex-basis: 100%;
-    height: 50px;
+.container {
     text-align: center;
-    padding-bottom: 15px;
-}
-
-
+    height: 60vh;
+  }
+  
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 130px;
+    margin: auto;
+  }
+  
+.box {
+    text-align: center;
+  }
+  
+.image-placeholder {
+    width: 130px;
+    height: 120px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+  }
+  
 .panel3-container   {
     height: 60vh;
     background-color: #e5e7eb;  
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .panel3-item    {
@@ -143,4 +132,6 @@ html, body, div {
 .panel5-text    {
     height: 30px;
     width: 300px;
+    color: white;
+    text-align: center;
 }
