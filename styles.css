@@ -1,10 +1,21 @@
-html, body, div {
+html, body, div, p{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto;
+    border: 1px red solid;
+}
+.panel-item1 p  {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
+h3 {
+    display: inline;
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
 .header-container  {
     display: flex;
     height: 15vh;
@@ -101,24 +112,32 @@ html, body, div {
 .panel4-box {
     height: 100px;
     width: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     background-color: #3882F6;
     border-radius: 5px;
 }
 
 .panel4-text    {
-    margin: 20px;
     margin-left: 100px;
+    margin-top: 0;
     height: 50px;
     width: 400px;
 }
 
 .panel4-button {
+    margin-bottom: 100px;
+    margin-left: 540px;
     height: 24px;
     width: 80px;
-    margin-left: 50px;
+    border: 2px white solid;
+    border-radius: 6px;
+    text-align: center;
+    color: white;
+    padding-top: 3px;
+    font-size: 12px;
+}
+
+.panel4-text   {
+    color: white
 }
 
 .panel5-container   {
